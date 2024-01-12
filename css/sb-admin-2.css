@@ -2357,8 +2357,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #3B5DD2;
+  border-color: #3B5DD2;
 }
 
 .btn-primary:hover {
@@ -2369,8 +2369,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
+  background-color: #294FC2;
+  border-color: #294FC2;
   box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
 }
 
@@ -4762,7 +4762,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #4e73df;
+  color: #3B5DD2;
   background-color: #fff;
   border: 1px solid #dddfeb;
 }

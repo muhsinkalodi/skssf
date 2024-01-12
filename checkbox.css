@@ -33,7 +33,7 @@ input[type="checkbox"]{
 }
 input[type="checkbox"]:after{
     position: absolute;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     font-weight: 400;
     content: "\f111";
     font-size: 22px;
@@ -54,9 +54,10 @@ input[type="checkbox"]:checked:after{
 }
 label{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: end; */
+    
     gap: 20px;
     height: 100%;
     width: 100%;
@@ -65,8 +66,8 @@ label{
     cursor: pointer;
 }
 label .fas{
-    font-size: 60px;
-    color: #2c2c51;
+    font-size: 1.5rem;
+    color: #3b3b58;
 }
 input[type="checkbox"]:checked + label .fas{
     animation: grow 0.5s;
@@ -84,8 +85,8 @@ label h6{
 }
 
 #submit-btn {
-    width: 30%;
-    padding: 10px;
+    width: 40%;
+    padding: 20px;
     margin-left: 35%;
     margin-bottom: 10px;
     
@@ -95,3 +96,27 @@ label h6{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.icons{
+    justify-content: flex-end;
+}
+
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -0.5em;
+    margin-left: -0.5em;
+  
+    .btn {
+      margin-bottom: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+  
+  @media (min-width: 32rem) {
+    .btns {
+      flex-direction: row;
+    }
+  }
